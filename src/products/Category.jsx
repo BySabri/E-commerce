@@ -17,7 +17,7 @@ export default function Category({user}) {
   return (
     <>
         <h1>Category : {categoryName}</h1>
-        <div className='row row-cols-sm-3 row-cols-md-4'>
+        <div className=''>
             {categoryProducts.map(item=><ProductCard key={item.id} item={item}/>)}
         </div>
     

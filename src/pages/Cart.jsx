@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
 
-export default function Fav({user}) {
+export default function cart({user}) {
     const [cart, setCart]=useState([])
 
     useEffect(() =>{

@@ -6,7 +6,7 @@ export default function Home({user}) {
 
   return (
     <>
-      <h1 className='home'>Site hala geliştirilmektedir zamanım kalmadığı için yarım  atılmıştır!!!!!!! Tamamlanmış halini linkedIn üzerinden paylaşacağım www.linkedin.com/in/eyubsabridemir</h1>
+      <h1 className='home'>Home Page</h1>
       <div className='flex'>
         <Products user={user}/>
       </div>

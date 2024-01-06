@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import "./categories.css"
 
 export default function Categories({user}) {
   const[categories, setCategories] = useState([])
@@ -11,11 +12,11 @@ export default function Categories({user}) {
 
   return (
     <>
-      <h1>Categories</h1>
-      <div className="list-group">
+      <h1>Categories:</h1>
+      <div className="">
 
         {categories.map((category,index)=>
-            <Link className="list-group-item list-group-item-action" key={index} to={`/products/category/${category}`}>{category}</Link>
+            <Link className="categories" key={index} to={`/products/category/${category}`}>{category}</Link>
           )}
 
       </div>

@@ -1,0 +1,19 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 25px;
+    border: 0.1px solid #797878;
+    border-radius: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.4s ease-in-out;
+
+}
+
+.categories:hover {
+    color: #000000;
+    background-color: #d6d6d6;
+  }

@@ -12,7 +12,7 @@ export default function Products({user}) {
     
     return (
         <>
-            <h2>Products</h2>
+            <h2>Products :</h2>
             <div className='products'>
                 {last10Products.map(item => <ProductCard user={user} key={item.id} item={item}></ProductCard>)}
             </div>
